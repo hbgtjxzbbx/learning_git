@@ -79,5 +79,10 @@ public class Planet{
 			this.yyPos=this.yyPos+this.yyVel*dt;
 
 		}
+		public void draw(){
+			String imgPath="./images/"+this.imgFileName;
+			StdDraw.picture(this.xxPos,yyPos,imgPath);
+
+		}
 
 }
