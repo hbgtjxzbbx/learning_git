@@ -26,6 +26,12 @@ public class ArithmeticTest {
         assertEquals(-6, Arithmetic.sum(0, -6));
         assertEquals(0, Arithmetic.sum(6, -6));
     }
+    @Test
+    public void testReverse()
+    {
+        IntList a= new IntList(1,null);
+        assertEquals(a, IntList.reverse(new IntList(0,null)));
+    }
 
     /* Run the unit tests in this file. 
        This isn't necessary if you're using IntelliJ. See Lab 3 for more.*/

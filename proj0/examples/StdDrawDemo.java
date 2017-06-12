@@ -46,7 +46,7 @@ public class StdDrawDemo {
 			/* Clears the screen. */
 			StdDraw.clear();
 			StdDraw.picture(x, y, imageToDraw);
-			StdDraw.show(waitTimeMilliseconds);
+			StdDraw.show(waitTimeMilliseconds);	
 
 			/* Reduce wait time for each thing drawn, but
 			 * never wait less than 10 milliseconds. */
